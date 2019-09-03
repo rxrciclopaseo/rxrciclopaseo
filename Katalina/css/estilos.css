@@ -1,0 +1,508 @@
+/*CSS DE MANTENIMIENTO*/
+/*AQUÍ EMPIEZA MANTENIMIENTO*/
+@font-face{
+    font-family: "GILSANS";
+  src: url("../fonts/gil___.TTF") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+.body{
+   margin: 0;
+    font-size: 10px;
+    padding: 0px;
+}
+.subtituloprincipal{
+    
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 20px;
+}
+.contenedor{
+    margin: auto;
+    width: 100%;
+}
+.barra{
+        background-color: #E6800C;
+    position: fixed;
+      width: 100%;
+    padding: 10px;
+}
+.t-destacado{
+    font-size: 45px;
+    color: white;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.boton{
+	background-color:#E6800C;
+	color: white;
+	padding: 15px ;
+
+	border: none;
+}
+.boton:hover{
+	background-color: white;
+	color: #E6800C;
+}
+.botondos{
+    width: 100px;
+    height: 30px;
+	color: white;
+	padding: 15px ;
+	border: 1px solid white;
+    display: inline-block;
+    border-radius: 5px;
+}
+.boton-base{
+    display: inline;
+    text-align: center;
+    padding: 20px 30px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+.logo{
+    float: left;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.navegacion{
+    color: white;
+  top: auto;
+    float: right;
+    margin-right: 35px;
+}
+.navegacion ul li{
+    float: left;
+    padding-right: 0px;
+    list-style-type: none;
+    padding-top: 15px;
+}
+.navegacion ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.foto-fondo-mantenimiento{
+    background-image: url(../images/desengrasante.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*AQUÍ TERMINA EL CABEZOTE*/
+
+.intro{
+    background-color: antiquewhite;
+    border: 20px solid antiquewhite;
+    border-bottom: 40px solid antiquewhite;}
+
+.intro h2{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #E6800C;
+    font-size: 30px;
+}
+.intro p{
+    display: flex;
+    justify-content: center;
+    padding: 0px 300px 0px 300px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+/*AQUI TERMINA la introducción*/
+.textoimagen{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 100px;
+}
+.textoizquierda{
+    display: flex;
+    padding: 150px;
+    padding-bottom: 0px;
+    flex-direction: column ;
+    flex-grow: 1;
+    }
+.titulo {
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;   
+    margin-bottom: 0px;
+    color: #E6800C;
+}
+
+
+.bloquetexto {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: start;
+}
+
+
+.imagenizquierda img{
+width: 730px;
+    height: 500px;
+}
+
+.imagenderecha img{
+    width: 730px;
+    height: 500px;
+}
+
+.textoderecha{
+        display: flex;
+padding: 150px;
+    flex-direction: column ;
+     flex-grow: 1;
+}
+    
+.suspension{
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 500px;
+}
+.transmision{
+    display: flex;
+    margin-right: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  justify-content: space-between;
+    height: 500px;
+}
+
+.suspension{
+       display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 500px;
+}
+
+.presion{
+    display: flex;
+    margin-right: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  justify-content: space-between;
+    height: 500px;
+}
+
+.tuercas{
+       display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 500px;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+    background-color: #B2B6CC;
+}
+
+.videos h2{
+    flex-grow: -1;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 35px;   
+}
+
+/*AQUI TERMINA MANTENIMIENTO*/
+
+
+
+/*AQUI EMPIEZA EVENTOS*/
+/*AQUI EMPIEZA EL CABEZOTE*/
+.foto-fondo-eventos{
+    background-image: url(../images/mountain_head.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-intro{
+    background-image: url(../images/ciclista_1.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*AQUÍ TERMINA EVENTOS*/
+.introduccion-del-alquiler{
+
+    background-color: antiquewhite;
+    border: 20px solid antiquewhite;
+    border-bottom: 60px solid antiquewhite;}
+
+
+
+/*AQUÍ EMPIEZA ALQUILER*/
+.foto-intro-alquiler{
+    background-image: url(../images/CICLISMolargavida.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*AQUI TERMINA EL CABEZOTE*/
+
+.introduccion-del-alquiler{
+
+    background-color: antiquewhite;
+    border: 20px solid antiquewhite;
+    border-bottom: 60px solid antiquewhite;
+}
+
+.introduccion-del-alquiler h2{
+    
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    color:#E6800C;
+    font-size: 30px;
+}
+
+.introduccion-del-alquiler p{
+    display: flex;
+    justify-content: center;
+    padding: 0px 300px 0px 300px;
+    font-family: sans-serif;
+    margin: 0px;
+}
+/*Aquí termina la introducción*/
+
+body{
+    margin: 50px;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.info-foto{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: bottom .5s
+}
+
+.info-foto p{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white ;
+    color border: black;
+    margin: 0;
+    display: ;
+}
+
+.foto{
+    filter: contrast()
+}
+
+.caja:hover .info-foto{
+    bottom: 5%
+}
+
+
+.foto-seccion-eventos{
+    background-image: url(../images/BG-Equipamiento.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER-NO TOCAR*/
+.footercajas{
+    background: #3D4043;
+    display: flex;
+    flex-direction: column
+}
+.footerimages{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    margin: 20px     
+    
+}
+.titulofooter{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#foto_fondo a{
+    text-decoration: none;
+}
+#foto_dos a{
+    text-decoration: none;
+}
+#foto_tres a{
+    text-decoration: none;
+}
+ #foto_fondo{
+    background-image: url(../images/footergrupo.jpg);
+     width: 344px;
+     height: 179px;
+    padding: 30px ;
+    background-repeat: no-repeat;
+     background-size: cover;
+     margin-right: 10px;
+}
+#foto_dos{
+     background-image: url(../images/footercicla.jpg);
+    background-image: url(../images/footergrupo.jpg);
+     width: 344px;
+     height: 179px;
+    padding: 30px ;
+    background-repeat: no-repeat;
+     background-size: cover;
+         margin-right: 10px;
+}
+#foto_tres{
+     background-image: url(../images/footercamino.jpg);
+    background-image: url(../images/footergrupo.jpg);
+     width: 344px;
+     height: 179px;
+    padding: 30px ;
+    background-repeat: no-repeat;
+     background-size: cover;
+    
+}.textofooter{
+    
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: white;
+    margin: 20px
+}
+.fc-1{
+    width: 344px;
+     height: 179px;
+    padding: 30px ;
+}
+.fc-2{
+    width: 344px;
+     height: 179px;
+    padding: 30px ;
+}
+.iconosfooter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.iconosfooter img{
+    margin: 10px;
+}
+#footerprincipal{
+    text-align: center;
+    color: white
+}
+.fc-1 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fc-2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.fondorxr{
+    background-image: url(../images/inicio.jpg);
+    padding: 300px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AQUÍ TERMINA AQLQUIER*/
+
+
+
+
